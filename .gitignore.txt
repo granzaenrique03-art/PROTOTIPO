@@ -1,0 +1,32 @@
+# ARCHIVOS SENSIBLES - NO SUBIR A GITHUB
+.env
+config.php
+database.php
+conexion.php
+credenciales.php
+
+# ARCHIVOS DE BASE DE DATOS
+*.db
+*.sql
+*.mdb
+
+# CARPETAS DE ENTORNO
+/laragon/
+
+# ARCHIVOS DE LOGS
+/logs/*
+!/logs/.gitkeep  # Mantiene la carpeta pero sin archivos
+
+# ARCHIVOS TEMPORALES
+*.tmp
+*.temp
+*.cache
+
+# ARCHIVOS DEL SISTEMA
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# BACKUPS
+*.bak
+backup/
